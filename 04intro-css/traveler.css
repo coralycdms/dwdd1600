@@ -68,6 +68,7 @@ main p {
 main ol {
     padding: .5rem 30px;
     background-color: #efefef;
+    font-size: 1.9rem;
 }
 
 main dl dt {
