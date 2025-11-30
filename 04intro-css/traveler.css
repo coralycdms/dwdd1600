@@ -3,6 +3,9 @@ body {
     margin: 0;
 }
 
+main h2 {
+    font-family: "Covered by your Grace", cursive;
+}
 /* Header styles */
 header {
     background-color: #3C3849;
@@ -61,7 +64,9 @@ main h2 {
 }
 
 main p {
-    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0 1rem;
     color: #333;
 }
 
