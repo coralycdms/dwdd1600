@@ -5,7 +5,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #3C3849;
+    background-color: #eaeaea;
     padding: 1rem 10px;
 }
 
@@ -118,7 +118,7 @@ main a:hover {
 
 /* Footer styles */
 footer {
-    background-color: #3C3849;
+    background-color: #eaeaea;
     text-align: center;
     padding: 1rem;
     font-size: .8rem;
