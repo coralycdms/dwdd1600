@@ -52,10 +52,11 @@ main {
 
 main h1 {
     color: #0367A6;
+    font-size: 1.9rem;
 }
 
 main h2 {
-    color: #F2B90C;
+    color: #46625C;
     margin-bottom: .2rem;
 }
 
@@ -73,6 +74,7 @@ main dl dt {
     color: #b40412;
     font-weight: 400;
     margin-top: 1rem;
+    font-size: 1.9rem;
 }
 
 main dl dd {
