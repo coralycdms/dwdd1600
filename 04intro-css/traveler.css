@@ -6,12 +6,12 @@ body {
 /* Header styles */
 header {
     background-color: #eaeaea;
-    padding: 1rem 10px;
+    padding: 1 rem 10 px;
 }
 
 header span {
     color: #024873;
-    font-size: 1.6rem;
+    font-size: 1.6 rem;
     font-weight: 700;
 }
 
@@ -23,16 +23,16 @@ nav {
 
 nav.ul {
     margin: 0;
-    padding: 0 10px;
+    padding: 0 10 px;
     list-style-type: none;
     display: flex;
 }
 
 nav a {
     display: block;
-    padding: .83rem 1rem;
+    padding: .83 rem 1 rem;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.1 rem;
     color: #024873;
     font-weight: 700;
 }
@@ -48,7 +48,7 @@ nav li a:hover {
 
 /* Main content styles */
 main {
-    padding: 1rem 10px;
+    padding: 1 rem 10 px;
 }
 
 main h1 {
@@ -57,7 +57,7 @@ main h1 {
 
 main h2 {
     color: #024873;
-    margin-bottom: .2rem;
+    margin-bottom: .2 rem;
 }
 
 main p {
@@ -66,20 +66,20 @@ main p {
 }
 
 main ol {
-    padding: .5rem 30px;
+    padding: .5 rem 30 px;
     background-color: #efefef;
 }
 
 main dl dt {
     color: #b40412;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 1 rem;
 }
 
 main dl dd {
     color: #024873;
-    font-size: .9rem;
-    margin-left: 20px;
+    font-size: .9 rem;
+    margin-left: 20 px;
 }
 
 main ul {
@@ -87,9 +87,9 @@ main ul {
 }
 
 main ul li {
-    line-height: 125%;
-    margin-bottom: .5rem;
-    font-size: .9rem;
+    line-height: 125 %;
+    margin-bottom: .5 rem;
+    font-size: .9 rem;
 }
 
 main strong {
@@ -104,26 +104,26 @@ main em {
 main address {
     font-style: normal;
     background-color: #f2b705;
-    padding: .5rem;
-    border-radius: 10px;
-    border: 1px solid #024873;
-    width: 200px;
+    padding: .5 rem;
+    border-radius: 10 px;
+    border: 1 px solid #024873;
+    width: 200 px;
 }
 main a{
     color: #024873;
 }
 main a:hover {
-    color: rgb(180, 4, 18);
+    color: rgb (180, 4, 18);
 }
 
 /* Footer styles */
 footer {
     background-color: #eaeaea;
     text-align: center;
-    padding: 1rem;
-    font-size: .8rem;
+    padding: 1 rem;
+    font-size: .8 rem;
     color: #333;
-    letter-spacing: 3px;
+    letter-spacing: 3 px;
 }
 footer p {
     margin: 0;
