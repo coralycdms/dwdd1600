@@ -87,6 +87,7 @@ main ol {
 main dl dt {
     color: #0367A6; /* dt headings stay blue */
     margin-top: 1rem;
+    font-weight: 700;
 }
 
 main dl dd {
