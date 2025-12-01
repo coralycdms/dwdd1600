@@ -2,3 +2,35 @@
     <img src="" alt="" width="" height="" loading="lazy">
     <figcaption></figcaption>
 </figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
