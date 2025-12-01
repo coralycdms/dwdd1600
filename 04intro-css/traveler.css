@@ -90,12 +90,13 @@ main ol {
 }
 
 main dl dt {
-    color: #b40412; /* keep red dt headings */
+    color: #0367A6; /* keep red dt headings */
     margin-top: 1rem;
 }
 
 main dl dd {
     margin-left: 20px;
+    color: #000
 }
 
 /* OTHER INLINE TEXT */
