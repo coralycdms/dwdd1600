@@ -91,12 +91,6 @@ main dl dt {
     font-weight: 700;
 }
 
-main dl dd ul {
-    list-style-type: none;
-    padding-left: 0; /* removes indentation */
-    margin-left: 0;
-}
-
 
 main dl dd {
     margin-left: 20px;
