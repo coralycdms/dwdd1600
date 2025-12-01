@@ -91,6 +91,13 @@ main dl dt {
     font-weight: 700;
 }
 
+/* Custom bullet style for the list inside the definition list */
+main dl .dl-bullets {
+    list-style-type: square;   /* or disc | circle | etc. */
+    padding-left: 30px;        /* ensure bullets have room */
+}
+
+
 main dl dd {
     margin-left: 20px;
 }
