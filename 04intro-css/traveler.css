@@ -1,12 +1,18 @@
+/* GLOBAL FONT */
 body {
-    font-family: "Covered by Your Grace", cursive;
+    font-family: "Oxygen", sans-serif;  /* readable for paragraphs */
     margin: 0;
 }
 
+/* Handwriting font only for headings & nav */
+header span,
+nav a,
+main h1,
 main h2 {
-    font-family: "Covered by your Grace", cursive;
+    font-family: "Covered By Your Grace", cursive;
 }
-/* Header styles */
+
+/* HEADER */
 header {
     background-color: #3C3849;
     padding: 1rem 10px;
@@ -18,7 +24,7 @@ header span {
     font-weight: 400;
 }
 
-/* Navigation styles */
+/* NAVIGATION */
 nav {
     background-color: #46625C;
 }
@@ -48,58 +54,49 @@ nav li a:hover {
     color: white;
 }
 
-/* Main content styles */
+/* MAIN CONTENT */
 main {
     padding: 1rem 10px;
 }
 
 main h1 {
     color: #0367A6;
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 main h2 {
     color: #46625C;
+    font-size: 1.7rem;
     margin-bottom: .2rem;
 }
 
-main p {
+/* ✔ CONSISTENT BODY TEXT SIZES */
+main p,
+main ul li,
+main ol,
+main dl dt,
+main dl dd {
     font-size: 1.5rem;
     line-height: 1.6;
-    margin: 0 1rem;
-    color: #333;
+    color: #000; /* ✔ Yellow changed to black */
 }
 
+/* LIST STYLES */
 main ol {
     padding: .5rem 30px;
     background-color: #efefef;
-    font-size: 1.9rem;
 }
 
 main dl dt {
-    color: #b40412;
-    font-weight: 400;
+    color: #b40412; /* keep red dt headings */
     margin-top: 1rem;
-    font-size: 1.9rem;
 }
 
 main dl dd {
-    color: #F2B90C;
-    font-size: 1.9rem;
     margin-left: 20px;
 }
 
-main ul {
-    list-style-type: circle;
-}
-
-main ul li {
-    line-height: 125%;
-    margin-bottom: .5rem;
-    font-size: 1.9rem;
-    color: #333;
-}
-
+/* OTHER INLINE TEXT */
 main strong {
     font-weight: 400;
     color: black;
@@ -126,7 +123,7 @@ main a:hover {
     color: rgb(180, 4, 18);
 }
 
-/* Footer styles */
+/* FOOTER */
 footer {
     background-color: #0367A6;
     text-align: center;
