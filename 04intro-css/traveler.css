@@ -1,17 +1,7 @@
-/* GLOBAL FONT */
+/* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
 body {
-    font-family: "Covered by your Grace", cursive;  /* readable for paragraphs */
-    margin: 0;
-}
-
-/* Handwriting font only for headings & nav */
-header span,
-nav a,
-main h1,
-main h2,
-main h3
-{
     font-family: "Covered By Your Grace", cursive;
+    margin: 0;
 }
 
 /* HEADER */
@@ -72,7 +62,12 @@ main h2 {
     margin-bottom: .2rem;
 }
 
-/* ✔ CONSISTENT BODY TEXT SIZES */
+main h3 {
+    color: #46625C;
+    font-size: 1.6rem;
+}
+
+/* CONSISTENT BODY TEXT */
 main p,
 main ul li,
 main ol,
@@ -80,7 +75,7 @@ main dl dt,
 main dl dd {
     font-size: 1.5rem;
     line-height: 1.6;
-    color: #000; /* ✔ Yellow changed to black */
+    color: #000; /* body text is black */
 }
 
 /* LIST STYLES */
@@ -90,16 +85,15 @@ main ol {
 }
 
 main dl dt {
-    color: #0367A6; /* keep blue dt headings */
+    color: #0367A6; /* dt headings stay blue */
     margin-top: 1rem;
 }
 
 main dl dd {
     margin-left: 20px;
-    color: #000
 }
 
-/* OTHER INLINE TEXT */
+/* INLINE TEXT */
 main strong {
     font-weight: 400;
     color: black;
@@ -109,6 +103,7 @@ main em {
     font-weight: 400;
 }
 
+/* ADDRESS BLOCK */
 main address {
     font-style: normal;
     background-color: #f2b705;
@@ -118,6 +113,7 @@ main address {
     width: 200px;
 }
 
+/* LINKS */
 main a {
     color: #46625C;
 }
