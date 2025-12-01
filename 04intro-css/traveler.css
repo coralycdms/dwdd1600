@@ -46,11 +46,11 @@ nav li a:hover {
     color: white;
 }
 .toggle-btn {
-    background-color: #0367A6;
-    color: white;
+    background-color: #F46625C;
+    color: #0367A6;
     border: none;
-    font-size: 1.3rem;
-    padding: .4rem .8rem;
+    font-size: 2.3rem;
+    padding: .83rem .1rem;
     border-radius: 6px;
     cursor: pointer;
     transition: .2s;
@@ -58,7 +58,7 @@ nav li a:hover {
 }
 
 .toggle-btn:hover {
-    background-color: #024d7c;
+    background-color: #3C3849;
 }
 
 /* MAIN CONTENT */
