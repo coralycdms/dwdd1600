@@ -8,7 +8,9 @@ body {
 header span,
 nav a,
 main h1,
-main h2 {
+main h2,
+main h3
+{
     font-family: "Covered By Your Grace", cursive;
 }
 
