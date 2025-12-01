@@ -1,1 +1,4 @@
-
+<figure>
+    <img src="" alt="" width="" height="" loading="lazy">
+    <figcaption></figcaption>
+</figure>
