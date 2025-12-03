@@ -1,0 +1,280 @@
+/* Prevent problems on different browsers */
+* {
+    box-sizing: border-box;
+}
+
+
+/* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
+body {
+    font-family: "Covered By Your Grace", cursive;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: #3C3849;
+    padding: 1rem 10px;
+    display: flex;
+}
+
+header span {
+    color: #F2B90C;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* small screem navigation */
+@media only screen and (max-width: 800px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem 1rem;
+        color: #F2B90C;
+        text-decoration: none;
+        border-bottom: solid 1px black;
+        font-weight: 700;
+    }
+
+    nav .active a {
+        background-color: #0367A6;
+        color: #F2B90C;
+        background-image: linear-gradient(to bottom, #0367A6, #024873);
+    }
+
+}
+
+/* end small screen */
+
+
+
+
+/* LARGE SCREEN NAVIGATION  */
+@media only screen and (min-width: 801px) {
+
+    nav {
+        background-color: #46625C;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0 10px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: .83rem 1rem;
+        text-decoration: none;
+        font-size: 2.3rem;
+        color: #F2B90C;
+        font-weight: 400;
+    }
+
+    nav li.active a {
+        background-color: #0367A6;
+        color: #F2B90C;
+    }
+
+    nav li a:hover {
+        color: white;
+    }
+
+
+}
+
+/* end large screen */
+
+
+
+
+
+
+
+/* MAIN CONTENT */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #0367A6;
+    font-size: 2rem;
+}
+
+main h2 {
+    color: #46625C;
+    font-size: 1.7rem;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #46625C;
+    font-size: 1.6rem;
+}
+
+/* CONSISTENT BODY TEXT */
+main p,
+main ul li,
+main ol,
+main dl dt,
+main dl dd {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #000;
+    /* body text is black */
+}
+
+/* LIST STYLES */
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #0367A6;
+    /* dt headings stay blue */
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+
+main dl dd {
+    margin-left: 20px;
+}
+
+/* INLINE TEXT */
+main strong {
+    font-weight: 400;
+    color: black;
+}
+
+main em {
+    font-weight: 400;
+}
+
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* main image stuff here */
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 40%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #3c3849
+}
+
+div.gallery img {
+    width: 98%;
+    height: auto;
+    border-radius: 6px;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #024873;
+    font-size: .7rem;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #024873;
+}
+
+/* ADDRESS BLOCK */
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #F2B90C;
+    width: 200px;
+}
+
+/* LINKS */
+main a {
+    color: #46625C;
+}
+
+main a:hover {
+    color: rgb(180, 4, 18);
+}
+
+/* FOOTER */
+footer {
+    background-color: #0367A6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #F2B90C;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 1px solid #F2B90C;
+}
+
+footer p {
+    margin: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
