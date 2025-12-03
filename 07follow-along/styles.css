@@ -129,8 +129,13 @@ main a {
 
 .angelohero {
     width: 100%;
-    height: auto;
+    margin: 0;
 
+}
+
+.angelohero img{
+    width: 100%;
+    height: auto;
 }
 
 .angeloGallery {
