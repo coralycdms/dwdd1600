@@ -129,16 +129,6 @@ main a {
 }
 
 .hero {
-    width: 100%
-}
-
-.angelohero {
-    width: 100%;
-    margin: 0;
-
-}
-
-.angelohero img {
     width: 100%;
     height: auto;
 }
