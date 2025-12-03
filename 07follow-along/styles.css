@@ -127,7 +127,7 @@ main a {
     color: #9c3335;
 }
 
-.hero{
+.hero {
     width: 100%;
     height: auto;
 
@@ -156,8 +156,9 @@ main a {
     height: auto;
     border-radius: 5px;
 }
+
 .angeloGallery img:hover {
-    box-shadow: 0px 0px 0px rgba(0,0,0,0,.5);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -177,7 +178,10 @@ footer a {
     color: #8b5022;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     max-width: 64rem;
     margin: 0 auto;
 
