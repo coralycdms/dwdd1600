@@ -15,6 +15,7 @@ body {
 /* header stuff here */
 header {
     padding: 1rem 2vw;
+    display: flex;
 }
 
 header span {
