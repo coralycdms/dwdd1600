@@ -143,6 +143,7 @@ main ul {
     list-style-type: square;
     background-color: #0367a6;
     color: f2b90c;
+    margin-left: 20px;
 }
 
 main dl dt {
