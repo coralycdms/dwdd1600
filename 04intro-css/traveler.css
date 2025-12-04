@@ -86,6 +86,10 @@ main ol {
     background-color: #46625c;
 }
 
+main ul {
+    list-style-type: square;
+}
+
 main dl dt {
     color: #0367A6; /* dt headings stay blue */
     margin-top: 1rem;
