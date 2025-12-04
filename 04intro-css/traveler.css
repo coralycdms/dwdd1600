@@ -88,6 +88,7 @@ main ol {
 }
 
 main ul {
+    padding: .5rem 30px;
     list-style-type: square;
     background-color: #0367a6;
 }
