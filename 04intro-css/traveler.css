@@ -77,7 +77,7 @@ main dl dt,
 main dl dd {
     font-size: 1.5rem;
     line-height: 1.6;
-    color: #000; /* body text is black */
+    color: #46625c; /* body text is black */
 }
 
 /* LIST STYLES */
