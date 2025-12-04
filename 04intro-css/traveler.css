@@ -89,6 +89,7 @@ main ol {
 
 main ul {
     list-style-type: square;
+    background-color: #0367a6;
 }
 
 main dl dt {
