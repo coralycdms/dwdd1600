@@ -65,7 +65,7 @@ main h2 {
 }
 
 main h3 {
-    color: #46625C;
+    color: #3c3849;
     font-size: 1.6rem;
 }
 
@@ -140,4 +140,5 @@ footer {
 
 footer p {
     margin: 0;
+    padding: 20px;
 }
