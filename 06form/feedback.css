@@ -88,6 +88,11 @@ h1 {
     color: #3C3849;
 }
 
+input {
+    padding: 10px;
+    caret-color: #800080;
+}
+
 /* commence the bane of my existence; input styles */
 .myform input[type="text"],
 .myform input[type="email"],
