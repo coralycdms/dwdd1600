@@ -54,9 +54,7 @@ h1 {
 }
 
 
-/* =============================
-   FORM CONTAINER
-============================= */
+/* form */
 .myform {
     max-width: 420px;
     margin: 2rem auto;
@@ -64,9 +62,7 @@ h1 {
     font-family: "Covered By Your Grace", cursive;
 }
 
-/* =============================
-   FIELDSETS AND LEGENDS
-============================= */
+/* fieldsets and legends */
 .myform fieldset {
     border: 2px solid #0367A6;
     border-radius: 10px;
@@ -83,9 +79,7 @@ h1 {
     text-transform: uppercase;
 }
 
-/* =============================
-   LABELS
-============================= */
+/* labels */
 .myform label {
     display: block;
     margin-bottom: 0.3rem;
@@ -94,9 +88,7 @@ h1 {
     color: #3C3849;
 }
 
-/* =============================
-   INPUTS, TEXTAREA, SELECT
-============================= */
+/* commence the bane of my existence; input styles */
 .myform input[type="text"],
 .myform input[type="email"],
 .myform input[type="tel"],
@@ -126,7 +118,6 @@ h1 {
     background-color: #fdf3d5;
 }
 
-/* FOCUS STATES */
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
@@ -135,9 +126,7 @@ h1 {
     box-shadow: 0 0 6px rgba(3, 103, 166, 0.25);
 }
 
-/* =============================
-   SUBMIT BUTTON
-============================= */
+/* submit button */
 .myform input[type="submit"] {
     background-color: #3C3849;
     color: #F2B90C;
@@ -157,9 +146,7 @@ h1 {
     background-color: #46625c;
 }
 
-/* =============================
-   INSTRUCTIONS
-============================= */
+/* additional styles */
 .myform .instructions {
     margin-top: 0.3rem;
     margin-bottom: 0.8rem;
