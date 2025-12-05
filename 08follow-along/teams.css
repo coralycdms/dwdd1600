@@ -174,7 +174,7 @@ table.actvities tr:nth-child(odd) {
 }
 
 table.activities tr:hover {
-    background-color: #ddd
+    background-color: #ddd;
 }
 
 
