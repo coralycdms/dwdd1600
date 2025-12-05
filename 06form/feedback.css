@@ -67,7 +67,7 @@ main {
 
 .myform legend {
     color: #0367A6;
-    font-size: .6rem;
+    font-size: 16px;
 }
 
 .myform label {
@@ -120,10 +120,7 @@ main {
     margin: 1rem 0 0 3vw;
     cursor: pointer;
 }
-.myform [input="submit"]:hover {
-    background-color: #0367A6;
-    border: solid 2px #F2B90C;
-}
+
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
