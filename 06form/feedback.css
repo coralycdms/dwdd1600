@@ -93,14 +93,14 @@ input {
     caret-color: #800080;
 }
 
-input:[type=text] {
+input:[type="text"] {
     padding: 12px;
     border-radius: 4px;
     background-color: red;
     color: white;
 }
 
-input:[type=tel], input:type=[email], input:[type=submit] {
+input:[type="tel"], input:type=["email"], input:[type="submit"] {
     padding: 12px;
     border-radius: 4px;
     background-color: blue;
