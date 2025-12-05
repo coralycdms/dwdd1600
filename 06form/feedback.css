@@ -46,7 +46,24 @@ nav li a:hover {
     color: white;
 }
 
+.wrapimage {
+    width: 50%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
 
+.wrapimage img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapimage figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+/* FORM STYLES */
 .myform fieldset {
     border: 1px solid #43a0b6;
     border-radius: 3px;
@@ -55,11 +72,11 @@ nav li a:hover {
 
 .myform legend {
     color: #3C3849;
-    font-size: .8rem;
+    font-size: 1.4rem;
 }
 
 .myform label {
-    margin: .5rem;
+    margin: .7rem;
 }
 
 .myform label,
@@ -91,7 +108,7 @@ nav li a:hover {
 }
 
 .myform [input="submit"] {
-    background-color: #43a0b6;
+    background-color: #46625C;
     border: none;
     padding: 1rem 2rem;
     border-radius: 3rem;
