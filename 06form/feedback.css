@@ -46,21 +46,11 @@ nav li a:hover {
     color: white;
 }
 
-.wrapimage {
-    width: 50%;
-    margin: 0;
-    float: right;
-    margin-left: 2vw;
-}
+/* MAIN CONTENT */
+main {
+    padding: 1rem 10px;
+    font-weight: 400;
 
-.wrapimage img {
-    width: 100%;
-    height: auto;
-}
-
-.wrapimage figcaption {
-    text-align: center;
-    font-size: .8rem;
 }
 
 /* FORM STYLES */
@@ -70,19 +60,22 @@ nav li a:hover {
 }
 
 .myform fieldset {
-    border: 1px solid #43a0b6;
-    border-radius: 3px;
-    margin-bottom: 1rem;
+    border: .9px dotted #0367A6;
+    border-radius: 4px;
+    margin-top: 1rem 0;
 }
 
 .myform legend {
-    color: #3C3849;
-    font-size: 1.4rem;
+    color: #0367A6;
+    font-size: .6rem;
 }
 
 .myform label {
     margin: .7rem;
+    font-size: 1.1rem;
+    color: #3C3849;
 }
+
 
 .myform label,
 .myform select,
@@ -92,43 +85,64 @@ nav li a:hover {
 .myform textarea {
     display: block;
     padding: .3rem .5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
+
 }
 
 .myform [type="text"],
 .myform [type="tel"],
+.myfrom [type="email"],
 .myform select,
 .myform textarea {
-    border: solid 1px #F2B90C;
-    padding: .3rem;
-    width: 270px;
-    border-radius: .3rem;
+    border: solid 2px #F2B90C;
+    padding: .5rem;
+    width: 200px;
+    border-radius: .5rem;
     font-family: 'covered By Your Grace', cursive;
     font-weight: 400;
 }
 
 .myform textarea {
-    height: 6rem;
+    height: 10rem auto;
 }
 
 .myform :required {
-    background-color: rgba(156, 51, 53, 0.1);
+    background-color: rgb(60, 56, 73,0.1);
 }
 
 .myform [input="submit"] {
     background-color: #46625C;
-    border: none;
+    border: dashed 2px #F2B90C;
     padding: 1rem 2rem;
-    border-radius: 3rem;
-    color: white;
-    margin: 1rem 0 0 1vw;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: #F2B90C;
+    margin: 1rem 0 0 3vw;
     cursor: pointer;
 }
-
+.myform [input="submit"]:hover {
+    background-color: #0367A6;
+    border: solid 2px #F2B90C;
+}
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
     outline: none;
     border-color: #0367A6;
-    box-shadow: 0 0 5px rgba(3, 103, 166, 0.5); 
+    box-shadow: 0 0 5px rgba(2, 103, 146, 0.5); 
+}
+/* FOOTER */
+footer {
+    background-color: #0367A6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #F2B90C;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 1px solid #F2B90C;
+}
+
+footer p {
+    margin: 0;
 }
