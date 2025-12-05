@@ -46,6 +46,13 @@ nav li a:hover {
     color: white;
 }
 
+/* main */
+
+h1 {
+    color: #3C3849;
+    text-align: center;
+}
+
 
 /* === FORM LAYOUT === */
 .myform {
