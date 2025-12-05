@@ -130,7 +130,7 @@ h1 {
 .myform input[type="submit"] {
     background-color: #3C3849;
     color: #F2B90C;
-    border: 2px colid #F2B90C;
+    border: 2px solid #F2B90C;
     padding: 1rem 2rem;
     width: 100%;
     border-radius: 10px;
