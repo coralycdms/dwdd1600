@@ -88,12 +88,33 @@ h1 {
     color: #3C3849;
 }
 
+input {
+    padding: 10px;
+    caret-color: #800080;
+}
+
+input:[type="text"] {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+
+input:[type="tel"], input:type=["email"], input:[type="submit"] {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+    
+
 /* commence the bane of my existence; input styles */
 .myform input[type="text"],
 .myform input[type="email"],
 .myform input[type="tel"],
 .myform select,
 .myform textarea {
+    all: unset;
     display: block;
     width: 100%;
     padding: 0.7rem 0.9rem;
@@ -101,10 +122,19 @@ h1 {
     font-family: "Covered By Your Grace", cursive;
     border: 2px solid #F2B90C;
     border-radius: 8px;
-    background-color: #fef9e7;
+    background-color: #3a67a6;
     color: #3C3849;
     margin-bottom: 1rem;
     box-sizing: border-box;
+}
+
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="tel"],
+.myform select,
+.myform textarea {
+    border: 3px solid #F2B90C;
+    background-color: #fffbe6;
 }
 
 /* TEXTAREA HEIGHT */
@@ -136,6 +166,7 @@ h1 {
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.6rem;
+    text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 1rem;
     font-family: "Covered By Your Grace", cursive;
