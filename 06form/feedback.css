@@ -54,7 +54,9 @@ h1 {
 }
 
 
-/* === FORM LAYOUT === */
+/* =============================
+   FORM CONTAINER
+============================= */
 .myform {
     max-width: 420px;
     margin: 2rem auto;
@@ -62,7 +64,9 @@ h1 {
     font-family: "Covered By Your Grace", cursive;
 }
 
-/* === FIELDSET === */
+/* =============================
+   FIELDSETS AND LEGENDS
+============================= */
 .myform fieldset {
     border: 2px solid #0367A6;
     border-radius: 10px;
@@ -79,16 +83,20 @@ h1 {
     text-transform: uppercase;
 }
 
-/* === LABELS === */
+/* =============================
+   LABELS
+============================= */
 .myform label {
     display: block;
-    margin-bottom: .3rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
     font-size: 1.3rem;
     color: #3C3849;
-    margin-top: 1rem;
 }
 
-/* === INPUT, SELECT, TEXTAREA (CONSISTENT STYLE) === */
+/* =============================
+   INPUTS, TEXTAREA, SELECT
+============================= */
 .myform input[type="text"],
 .myform input[type="email"],
 .myform input[type="tel"],
@@ -96,37 +104,29 @@ h1 {
 .myform textarea {
     display: block;
     width: 100%;
-    padding: .7rem .9rem;
+    padding: 0.7rem 0.9rem;
     font-size: 1.3rem;
-    border-radius: 8px;
+    font-family: "Covered By Your Grace", cursive;
     border: 2px solid #F2B90C;
+    border-radius: 8px;
     background-color: #fef9e7;
     color: #3C3849;
-    font-family: "Covered By Your Grace", cursive;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
 }
 
-/* textarea height */
+/* TEXTAREA HEIGHT */
 .myform textarea {
     height: 9rem;
     resize: vertical;
 }
 
-/* === INPUT GROUPING (DESIGN: PROXIMITY) === */
-.myform .instructions {
-    margin-top: .3rem;
-    margin-bottom: .8rem;
-    font-size: 1.1rem;
-    color: #555;
-    opacity: .8;
-    padding-left: .2rem;
-}
-
-/* === REQUIRED FIELDS === */
+/* REQUIRED FIELDS */
 .myform :required {
     background-color: #fdf3d5;
 }
 
-/* === FOCUS STATES === */
+/* FOCUS STATES */
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
@@ -135,9 +135,11 @@ h1 {
     box-shadow: 0 0 6px rgba(3, 103, 166, 0.25);
 }
 
-/* === SUBMIT BUTTON === */
+/* =============================
+   SUBMIT BUTTON
+============================= */
 .myform input[type="submit"] {
-    background-color: #3c3849;
+    background-color: #3C3849;
     color: #F2B90C;
     border: 2px dashed #F2B90C;
     padding: 1rem 2rem;
@@ -148,43 +150,26 @@ h1 {
     letter-spacing: 1px;
     margin-top: 1rem;
     font-family: "Covered By Your Grace", cursive;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .myform input[type="submit"]:hover {
     background-color: #024f80;
 }
 
-/*  inputs  */
-
-input[type="text"] {
-    border: 2px solid #F2B90C;
-    border-radius: 8px;
+/* =============================
+   INSTRUCTIONS / HELP TEXT
+============================= */
+.myform .instructions {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555;
+    opacity: 0.8;
+    padding-left: 0.2rem;
 }
 
-input[type="email"] {
-    border: 2px solid #F2B90C;
-    border-radius: 8px;
-}
 
-input[type="tel"] {
-    border: 2px solid #F2B90C;
-    border-radius: 8px;
-}
-
-input[type="submit"] {
-    border-radius: 10px;
-    background-color: #0367A6;
-}
-
-select {
-    border: 2px solid #F2B90C;
-    border-radius: 8px;
-}
-
-textarea {
-    border: 2px solid #F2B90C;
-    border-radius: 8px;
-}
 
 /* FOOTER */
 footer {
