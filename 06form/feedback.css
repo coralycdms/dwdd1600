@@ -81,7 +81,7 @@ main {
 .myform select,
 .myform [type="text"],
 .myform [type="tel"],
-.myfrom [type="email"],
+.myform [type="email"],
 .myform textarea {
     display: block;
     padding: .3rem .5rem;
@@ -91,7 +91,7 @@ main {
 
 .myform [type="text"],
 .myform [type="tel"],
-.myfrom [type="email"],
+.myform [type="email"],
 .myform select,
 .myform textarea {
     border: solid 2px #F2B90C;
