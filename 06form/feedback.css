@@ -88,8 +88,11 @@ nav li a:hover {
 .myform select,
 .myform [type="text"],
 .myform [type="tel"],
+.myfrom [type="email"],
 .myform textarea {
     display: block;
+    padding: .3rem .5rem;
+    font-size: 1rem;
 }
 
 .myform [type="text"],
