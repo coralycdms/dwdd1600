@@ -107,6 +107,15 @@ h1 {
     box-sizing: border-box;
 }
 
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="tel"],
+.myform select,
+.myform textarea {
+    border: 3px solid #F2B90C;
+    background-color: #fffbe6;
+}
+
 /* TEXTAREA HEIGHT */
 .myform textarea {
     height: 9rem;
@@ -130,12 +139,13 @@ h1 {
 .myform input[type="submit"] {
     background-color: #3C3849;
     color: #F2B90C;
-    border: 2px dashed #F2B90C;
+    border: 2px solid #F2B90C;
     padding: 1rem 2rem;
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.6rem;
+    text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 1rem;
     font-family: "Covered By Your Grace", cursive;
