@@ -103,11 +103,11 @@ main {
 }
 
 input [type="email"], input [type="text"] {
-  width: 15erm;
+  width: 15rem;
 }
 
-input [type="telephone"] {
-  width: 15erm;
+input [type="tel"] {
+  width: 15rem;
 }
 
 .myform input[type="text"] {
