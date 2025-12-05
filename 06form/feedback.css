@@ -102,11 +102,11 @@ main {
     font-weight: 400;
 }
 
-input [type="email"], input [type="text"] {
+input[type="email"], input[type="text"] {
   width: 15rem;
 }
 
-input [type="tel"] {
+input[type="tel"] {
   width: 15rem;
 }
 
