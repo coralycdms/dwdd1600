@@ -110,6 +110,14 @@ input [type="tel"] {
   width: 15rem;
 }
 
+input[type="email"]:invalid {
+  border-color: red; /* Red border for invalid input */
+}
+
+input[type="email"]:valid {
+  border-color: green; /* Green border for valid input */
+}
+
 .myform input[type="text"] {
     border: solid 2px #F2B90C;
     padding: 0.5rem;
