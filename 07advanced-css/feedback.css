@@ -54,7 +54,7 @@ h1 {
 }
 
 
-/* form */
+/* FORM */
 .myform {
     max-width: 420px;
     margin: 2rem auto;
@@ -82,13 +82,13 @@ h1 {
 /* labels */
 .myform label {
     display: block;
-    margin-bottom: 0.3rem;
-    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    margin-top: 1.2rem;
     font-size: 1.3rem;
     color: #3C3849;
 }
 
-/* commence the bane of my existence; input styles */
+/* inputs, selects, textareas */
 .myform input[type="text"],
 .myform input[type="email"],
 .myform input[type="tel"],
@@ -96,39 +96,41 @@ h1 {
 .myform textarea {
     display: block;
     width: 100%;
-    padding: 0.7rem 0.9rem;
+    padding: 0.8rem 1rem;
     font-size: 1.3rem;
     font-family: "Covered By Your Grace", cursive;
     border: 2px solid #F2B90C;
     border-radius: 8px;
     background-color: #fef9e7;
     color: #3C3849;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* TEXTAREA HEIGHT */
+/* textarea height */
 .myform textarea {
     height: 9rem;
     resize: vertical;
 }
 
-/* REQUIRED FIELDS */
+/* required fields */
 .myform :required {
     background-color: #fdf3d5;
 }
 
+/* focus states */
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
     outline: none;
     border-color: #0367A6;
-    box-shadow: 0 0 6px rgba(3, 103, 166, 0.25);
+    box-shadow: 0 0 8px rgba(3, 103, 166, 0.35);
 }
 
 /* submit button */
 .myform input[type="submit"] {
-    background-color: #3C3849;
+    background: linear-gradient(135deg, #3C3849, #46625C);
     color: #F2B90C;
     border: 2px dashed #F2B90C;
     padding: 1rem 2rem;
@@ -139,15 +141,17 @@ h1 {
     letter-spacing: 1px;
     margin-top: 1rem;
     font-family: "Covered By Your Grace", cursive;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
-
 
 .myform input[type="submit"]:hover {
-    background-color: #46625c;
+    background: linear-gradient(135deg, #46625C, #0367A6);
+    color: #fff;
+    transform: scale(1.02);
 }
 
-/* additional styles */
+/* instructions text */
 .myform .instructions {
     margin-top: 0.3rem;
     margin-bottom: 0.8rem;
