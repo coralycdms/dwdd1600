@@ -169,7 +169,7 @@ table.activities td {
     padding: .4rem 2%;
 }
 
-table.actvities tr:nth-child(odd) {
+table.activities tr:nth-child(odd) {
     background-color: #eee;
 }
 
