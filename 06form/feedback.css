@@ -93,6 +93,14 @@ input {
     caret-color: #800080;
 }
 
+input:[type=text] {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+
+
 /* commence the bane of my existence; input styles */
 .myform input[type="text"],
 .myform input[type="email"],
