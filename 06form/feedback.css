@@ -138,12 +138,14 @@ main a {
 .myform select,
 .myform [type="text"],
 .myform [type="tel"],
+.myform [type-="email"],
 .myform textarea {
     display: block;
 }
 
 .myform [type="text"],
 .myform [type="tel"],
+.myform [type-="email"],
 .myform select,
 .myform textarea {
     border: solid 1px #888;
@@ -172,7 +174,7 @@ main a {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 700;
-
+}
 
 /* ===========================
    FOOTER starts here
