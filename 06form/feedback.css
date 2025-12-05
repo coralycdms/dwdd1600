@@ -50,11 +50,9 @@ nav li a:hover {
 main {
     padding: 1rem 10px;
     font-weight: 400;
-
 }
 
 /* FORM STYLES */
-
 .myform {
     margin-top: 1rem;
 }
@@ -74,82 +72,35 @@ main {
     margin: .7rem;
     font-size: 1.1rem;
     color: #3C3849;
-}
-
-
-.myform label,
-.myform select,
-.myform [type="text"],
-.myform [type="tel"],
-.myform [type="email"],
-.myform textarea {
     display: block;
-    padding: .3rem .5rem;
-    font-size: 1.5rem;
-
 }
 
-.myform [type="text"],
-.myform [type="tel"],
-.myform [type="email"],
-.myform select,
-.myform textarea {
+/* INPUT STYLING - individual types for validator */
+.myform input[type="text"],
+.myform input[type="tel"],
+.myform input[type="email"],
+.myform textarea,
+.myform select {
     border: solid 2px #F2B90C;
     padding: .5rem;
     width: 200px;
     border-radius: .5rem;
-    font-family: 'Covered By Your Grace', cursive;
-    font-weight: 400;
-}
-
-.myform input[type="text"] {
-    border: solid 2px #F2B90C;
-    padding: 0.5rem;
-    width: 200px;
-    border-radius: 0.5rem;
     font-family: "Covered By Your Grace", cursive;
     font-weight: 400;
+    font-size: 1.5rem;
 }
 
-
-.myform input[type="tel"] {
-    border: solid 2px #F2B90C;
-    padding: 0.5rem;
-    width: 200px;
-    border-radius: 0.5rem;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-}
-
-
-.myform input[type="email"] {
-    border: solid 2px #F2B90C;
-    padding: 0.5rem;
-    width: 200px;
-    border-radius: 0.5rem;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-}
-
-
+/* Textarea specific height */
 .myform textarea {
     height: 10rem;
 }
 
-.myform textarea {
-    border: solid 2px #F2B90C;
-    padding: 0.5rem;
-    width: 200px;
-    height: 10rem;
-    border-radius: 0.5rem;
-    font-family: "Covered By Your Grace", cursive;
-    font-weight: 400;
-}
-
+/* Required field highlight */
 .myform :required {
-    background-color: rgb(60, 56, 73,0.1);
+    background-color: rgba(60, 56, 73, 0.1);
 }
 
+/* Submit button styling */
 .myform input[type="submit"] {
     background-color: #46625C;
     border: dashed 2px #F2B90C;
@@ -159,15 +110,18 @@ main {
     color: #F2B90C;
     margin: 1rem 0 0 3vw;
     cursor: pointer;
+    font-family: "Covered By Your Grace", cursive;
 }
 
+/* Focus styling for inputs, textarea, select */
 .myform input:focus,
 .myform select:focus,
 .myform textarea:focus {
     outline: none;
     border-color: #0367A6;
-    box-shadow: 0 0 5px rgba(60, 56, 73,0.1); 
+    box-shadow: 0 0 5px rgba(60, 56, 73, 0.1); 
 }
+
 /* FOOTER */
 footer {
     background-color: #0367A6;
@@ -182,5 +136,4 @@ footer {
 
 footer p {
     margin: 0;
-
 }
