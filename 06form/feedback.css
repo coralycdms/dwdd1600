@@ -102,6 +102,14 @@ main {
     font-weight: 400;
 }
 
+input [type="email"], input [type="text"] {
+  width: 15erm;
+}
+
+input [type="telephone"] {
+  width: 15erm;
+}
+
 .myform input[type="text"] {
     border: solid 2px #F2B90C;
     padding: 0.5rem;
