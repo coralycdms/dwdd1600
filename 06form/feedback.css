@@ -147,24 +147,36 @@ nav li a:hover {
     background-color: #024f80;
 }
 
-/* === REQUIRED FOR AUTOGRADER TO PASS === */
+/*  inputs  */
+
 input[type="text"] {
-    
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
 }
+
 input[type="email"] {
-    
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
 }
+
 input[type="tel"] {
-    
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
 }
+
 input[type="submit"] {
-    
+    border-radius: 10px;
+    background-color: #0367A6;
 }
-textarea {
-    
-}
+
 select {
-    
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
+}
+
+textarea {
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
 }
 
 /* FOOTER */
