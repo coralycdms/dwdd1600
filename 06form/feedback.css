@@ -62,7 +62,7 @@ main {
 .myform fieldset {
     border: .9px dotted #0367A6;
     border-radius: 4px;
-    margin-top: 1rem 0;
+    margin-top: 1rem;
 }
 
 .myform legend {
@@ -103,7 +103,7 @@ main {
 }
 
 .myform textarea {
-    height: 10rem auto;
+    height: 10rem;
 }
 
 .myform :required {
