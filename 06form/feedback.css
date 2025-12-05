@@ -94,6 +94,7 @@ h1 {
 .myform input[type="tel"],
 .myform select,
 .myform textarea {
+    all: unset;
     display: block;
     width: 100%;
     padding: 0.7rem 0.9rem;
