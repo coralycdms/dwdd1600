@@ -64,6 +64,11 @@ nav li a:hover {
 }
 
 /* FORM STYLES */
+
+.myform {
+    margin-top: 1rem;
+}
+
 .myform fieldset {
     border: 1px solid #43a0b6;
     border-radius: 3px;
@@ -114,4 +119,13 @@ nav li a:hover {
     border-radius: 3rem;
     color: white;
     margin: 1rem 0 0 1vw;
+    cursor: pointer;
+}
+
+.myform input:focus,
+.myform select:focus,
+.myform textarea:focus {
+    outline: none;
+    border-color: #0367A6;
+    box-shadow: 0 0 5px rgba(3, 103, 166, 0.5); 
 }
