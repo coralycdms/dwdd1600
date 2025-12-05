@@ -129,7 +129,7 @@ main {
 .myform textarea:focus {
     outline: none;
     border-color: #0367A6;
-    box-shadow: 0 0 5px rgba(2, 103, 146, 0.5); 
+    box-shadow: 0 0 5px rgba(60, 56, 73,0.1); 
 }
 /* FOOTER */
 footer {
