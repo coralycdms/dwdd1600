@@ -1,193 +1,145 @@
-/* ===========================
-   GLOBAL STYLES
-   =========================== */
+/* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 200;
+    font-family: "Covered By Your Grace", cursive;
     margin: 0;
-    font-size: 16px;
 }
 
-
-/* ===========================
-   HEADER begins here
-   =========================== */
+/* HEADER */
 header {
-    padding: 1rem 2vw;
+    background-color: #3C3849;
+    padding: 1rem 10px;
 }
 
-header h1 {
-    margin: 0;
-    color: #9c3335;
-    font-size: 2.5rem;
-    font-weight: 500;
+header span {
+    color: #F2B90C;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
-header p {
-    margin: 0;
-    color: #051522;
-    font-size: 1.22rem;
-    letter-spacing: 2px;
-}
-
-
-/* ===========================
-   NAVIGATION
-   =========================== */
+/* NAVIGATION */
 nav {
-    background-color: #051522;
+    background-color: #46625C;
 }
 
 nav ul {
     margin: 0;
-    padding: 0 2vw;
+    padding: 0 10px;
     list-style-type: none;
     display: flex;
 }
 
 nav a {
     display: block;
-    padding: .95rem 1rem .83rem 1rem;
-    font-size: .8rem;
+    padding: .83rem 1rem;
     text-decoration: none;
-    color: #ffffff;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 2.3rem;
+    color: #F2B90C;
+    font-weight: 400;
 }
 
-nav .active a {
-    background-color: #9c3335;
-    color: #ffffff;
+nav li.active a {
+    background-color: #0367A6;
+    color: #F2B90C;
 }
 
-nav a:hover {
-    background-color: #43a0b6;
+nav li a:hover {
+    color: white;
 }
 
-
-/* ===========================
-   MAIN CONTENT
-   =========================== */
+/* MAIN CONTENT */
 main {
-    padding: 1rem 2vw;
+    padding: 1rem 10px;
+    font-weight: 400;
+
 }
 
-main h1 {
-    color: #9c3335;
-    font-size: 2.5rem;
-    margin: .5rem 0 .8rem 0;
+/* FORM STYLES */
+
+.myform {
+    margin-top: 1rem;
 }
 
-main h2 {
-    color: #5c3a2e;
-    margin-bottom: .2rem;
-}
-
-main p {
-    color: #2f3133;
-    margin: 0 0 .8rem 0;
-    line-height: 150%;
-}
-
-main a {
-    color: #9c3335;
-}
-
-
-/* ===========================
-   WRAPPED IMAGE
-   =========================== */
-.wrapimage {
-    width: 50%;
-    margin: 0;
-    float: right;
-    margin-left: 2vw;
-}
-
-.wrapimage img {
-    width: 100%;
-    height: auto;
-}
-
-.wrapimage figcaption {
-    text-align: center;
-    font-size: .8rem;
-}
-
-
-/* ===========================
-   FORM STYLES
-   =========================== */
 .myform fieldset {
-    border: 1px solid #43a0b6;
-    border-radius: 3px;
-    margin-bottom: 1rem;
+    border: .9px dotted #0367A6;
+    border-radius: 4px;
+    margin-top: 1rem;
 }
 
 .myform legend {
-    color: #43a0b6;
-    font-size: .8rem;
+    color: #0367A6;
+    font-size: 16px;
 }
 
 .myform label {
-    margin: .5rem;
+    margin: .7rem;
+    font-size: 1.1rem;
+    color: #3C3849;
 }
+
 
 .myform label,
 .myform select,
 .myform [type="text"],
 .myform [type="tel"],
-.myform [type-="email"],
+.myfrom [type="email"],
 .myform textarea {
     display: block;
+    padding: .3rem .5rem;
+    font-size: 1.5rem;
+
 }
 
 .myform [type="text"],
 .myform [type="tel"],
-.myform [type-="email"],
+.myfrom [type="email"],
 .myform select,
 .myform textarea {
-    border: solid 1px #888;
-    padding: .3rem;
-    width: 250px;
-    border-radius: .3rem;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 200;
+    border: solid 2px #F2B90C;
+    padding: .5rem;
+    width: 200px;
+    border-radius: .5rem;
+    font-family: 'covered By Your Grace', cursive;
+    font-weight: 400;
 }
 
 .myform textarea {
-    height: 6rem;
+    height: 10rem;
 }
 
 .myform :required {
-    background-color: rgba(156, 51, 53, 0.1);
+    background-color: rgb(60, 56, 73,0.1);
 }
 
-.myform input[type="submit"] {
-    background-color: #43a0b6;
-    border: none;
+.myform [input="submit"] {
+    background-color: #46625C;
+    border: dashed 2px #F2B90C;
     padding: 1rem 2rem;
-    border-radius: 3rem;
-    color: white;
-    margin: 1rem 0 0 1vw;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: #F2B90C;
+    margin: 1rem 0 0 3vw;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 700;
 }
 
-/* ===========================
-   FOOTER starts here
-   =========================== */
+.myform input:focus,
+.myform select:focus,
+.myform textarea:focus {
+    outline: none;
+    border-color: #0367A6;
+    box-shadow: 0 0 5px rgba(60, 56, 73,0.1); 
+}
+/* FOOTER */
 footer {
-    border-top: solid #ccc 2px;
+    background-color: #0367A6;
     text-align: center;
-    color: #024873;
-    font-size: .7rem;
-    padding: 1rem 0;
-    clear: both;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #F2B90C;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 1px solid #F2B90C;
 }
 
-footer a {
-    color: #024873;
+footer p {
+    margin: 0;
 }
