@@ -1,3 +1,52 @@
+/* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
+body {
+    font-family: "Covered By Your Grace", cursive;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: #3C3849;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #F2B90C;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #46625C;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: #F2B90C;
+    font-weight: 400;
+}
+
+nav li.active a {
+    background-color: #0367A6;
+    color: #F2B90C;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+
 /* === FORM LAYOUT === */
 .myform {
     max-width: 420px;
@@ -116,4 +165,21 @@ textarea {
 }
 select {
     
+}
+
+/* FOOTER */
+footer {
+    background-color: #0367A6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #F2B90C;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 1px solid #F2B90C;
+}
+
+footer p {
+    margin: 0;
+
 }
