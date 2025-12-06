@@ -199,7 +199,7 @@ figure.wrapped {
 }
 
 figure.wrapped img {
-    width: 100%;            /* full width of the figure */
+    width: 70%;            /* full width of the figure */
     height: auto;
 }
 
