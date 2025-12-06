@@ -136,6 +136,7 @@ main dl dd {
 main ol {
     padding: .5rem 30px;
     background-color: #46625c;
+    margin-left: 20px;
 }
 
 main ul {
