@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="Coraly Cademis">
+    <meta name="desscription" content="Portfolio 101">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Porfolio 101</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Portfolio 101: The Do's & The Don't's for AP Art</span>
+    </header>
+
+    <!-- start the page navigation -->
+   <nav>
+        <ul>
+            <li><a href="index.html">Why a Portfolio?</a></li>
+            <li><a href="planning.html">Planning</a></li>
+            <li><a href="gallery.html">My Gallery</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li class="active"><a href="feedback.html">Feedback</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="shop.html">Shops</a></li>
+        </ul>
+    </nav>
+     <!-- start the main content of the page -->
+    <main>
+        <h1>Apply For Feedback</h1>
+        <form method="get" class="myform" action="thanks.html">
+
+            <fieldset>
+                <legend>Custumer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>email*<input type="email" name="email" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="9815551234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Start Review Date</legend>
+                <label><input type="date" name="date" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>End Review Date</legend>
+                <label><input type="date" name="date" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Art Work Quantity</legend>
+                <label><input type="radio" name="method" value="drone" checked>0-5 pieces</label>
+                <label><input type="radio" name="method" value="cycle" checked>5-10 pieces</label>
+                <label><input type="radio" name="method" value="robot" checked>10-15 pieces</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Paint Type Disclosure</legend>
+                <label><input type="checkbox" name="oil" value="chosen"> Contains Oil Paint</label>
+                <label><input type="checkbox" name="watercolor" value="chosen"> Contains Watercolor Paint</label>
+                <label><input type="checkbox" name="acrylic" value="chosen"> Contains Acrylic Paint</label>
+                <label><input type="checkbox" name="gouache" value="chosen"> Contains Gouache Paint</label>
+                <label><input type="checkbox" name="enamel" value="chosen"> Contains Enamel Paint</label>
+                <label><input type="checkbox" name="fabric" value="chosen"> Contains Fabric Paint</label>
+                <label><input type="checkbox" name="fresco" value="chosen"> Contains Fresco Paint</label>
+                <label><input type="checkbox" name="blacklight" value="chosen"> Contains Blacklight Paint</label>
+                <label><input type="checkbox" name="tempera" value="chosen"> Contains Tempera Paint</label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Storage Temperature Preference</legend>
+                <label><input type="checkbox" name="humidity1" value="chosen"> Never Below 50%</label>
+                <label><input type="checkbox" name="humidity2" value="chosen"> Max 50%</label>
+                <label><input type="checkbox" name="temperature" value="chosen"> 65-70 Degrees Fahrenheight</label>
+                <label><input type="checkbox" name="temperature2" value="chosen"> 70-75 Degrees Fahrenheight</label>
+                <label><input type="checkbox" name="location1" value="chosen"> Enclosed Room</label>
+                <label><input type="checkbox" name="location2" value="chosen"> Room With Air Flow</label>
+            </fieldset>
+
+            <fieldset>
+                <label> Review Frequency
+                <select name="time"> 
+                <option value="weekly">Every 7 days</option>
+                <option value="biweekly">Every 14 days</option>
+                <option value="monthly">Every Month</option>
+                <option value="bimonthly">Every 6 weeks</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments">speak now or forever hold your peace!</textarea>
+                </label>
+
+
+
+
+            <input type="submit" value="Send Portfolio Review Request">
+        </form>
+
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Coraly Cademis &bull; DWDD</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+/* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
+body {
+    font-family: "Covered By Your Grace", cursive;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: #3C3849;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #F2B90C;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #46625C;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: #F2B90C;
+    font-weight: 400;
+}
+
+nav li.active a {
+    background-color: #0367A6;
+    color: #F2B90C;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main */
+
+h1 {
+    color: #3C3849;
+    text-align: center;
+}
+
+
+/* form */
+.myform {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-family: "Covered By Your Grace", cursive;
+}
+
+/* fieldsets and legends */
+.myform fieldset {
+    border: 2px solid #0367A6;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.8rem;
+    background: #F9FAFB;
+}
+
+.myform legend {
+    color: #0367A6;
+    padding: 0 .5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* labels */
+.myform label {
+    display: block;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #3C3849;
+}
+
+input {
+    padding: 10px;
+    caret-color: #800080;
+}
+
+input:[type="text"] {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+
+input:[type="tel"],
+input:type=["email"],
+input:[type="submit"] {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+
+
+/* commence the bane of my existence; input styles */
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="tel"],
+.myform select,
+.myform textarea {
+    all: unset;
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    font-size: 1.3rem;
+    font-family: "Covered By Your Grace", cursive;
+    border: 2px solid #F2B90C;
+    border-radius: 8px;
+    background-color: #3a67a6;
+    color: #3C3849;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="tel"],
+.myform select,
+.myform textarea {
+    border: 3px solid #F2B90C;
+    background-color: #fffbe6;
+}
+
+/* TEXTAREA HEIGHT */
+.myform textarea {
+    height: 9rem;
+    resize: vertical;
+}
+
+/* REQUIRED FIELDS */
+.myform :required {
+    background-color: #fdf3d5;
+}
+
+.myform input:focus,
+.myform select:focus,
+.myform textarea:focus {
+    outline: none;
+    border-color: #0367A6;
+    box-shadow: 0 0 6px rgba(3, 103, 166, 0.25);
+}
+
+/* submit button */
+.myform input[type="submit"] {
+    background-color: #3C3849;
+    color: #F2B90C;
+    border: 2px solid #F2B90C;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    font-family: "Covered By Your Grace", cursive;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.myform input[type="submit"]:hover {
+    background-color: #46625c;
+}
+
+/* additional styles */
+.myform .instructions {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555;
+    opacity: 0.8;
+    padding-left: 0.2rem;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #0367A6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #F2B90C;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 1px solid #F2B90C;
+}
+
+footer p {
+    margin: 0;
+
+}
