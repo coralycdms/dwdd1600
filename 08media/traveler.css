@@ -271,7 +271,8 @@ table.review tr:hover {
     color: white;
 }
 tr:hover {
-  color: #F2B90C;
+    background.color: #024873;
+    color: #F2B90C;
 }
 
 
