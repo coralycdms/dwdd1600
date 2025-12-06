@@ -243,7 +243,7 @@ table.review {
 }
 table.review th {
     background-color: #3C3849;
-    color: white;
+    color: #F2B90C;
     padding: .5rem 2%;
     text-align: left;
 }
@@ -261,6 +261,10 @@ table.review tr:hover {
     background-color: #024873;
     color: white;
 }
+tr:hover {
+  color: blue; #F2B90C;
+}
+
 
 
 
