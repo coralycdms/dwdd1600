@@ -1,4 +1,9 @@
 /* GLOBAL FONT — EVERYTHING uses Covered By Your Grace */
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Covered By Your Grace", cursive;
     margin: 0;
