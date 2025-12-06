@@ -87,6 +87,12 @@ header span {
     nav li a:hover {
         color: white;
     }
+    
+    table.review th,
+table.review td {
+    border: 1px solid #f2b90c;
+}
+
 
 
 }
