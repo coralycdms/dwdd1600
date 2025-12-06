@@ -146,7 +146,12 @@ main ul {
     margin-left: 20px;
 }
 
-main ul li, main ol {
+main ul li {
+    color: #f2b90c;
+}
+
+main ol,
+main ol li {
     color: #f2b90c;
 }
 
