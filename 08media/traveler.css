@@ -234,6 +234,40 @@ div.gallery img:hover {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
+/* table stuff here */
+
+table.review {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+table.review th {
+    background-color: #3C3849;
+    color: white;
+    padding: .5rem 2%;
+    text-align: left;
+}
+
+table.review td {
+    padding: .4rem 2%;
+    color: #0367A6;
+}
+
+table.review tr:nth-child(odd) {
+    background-color: #85a19b;
+}
+
+table.review tr:hover {
+    background-color: #024873;
+    color: white;
+}
+
+
+
+
+
+
+
 /* footer stuff here */
 footer {
     border-top: solid #ccc 2px;
