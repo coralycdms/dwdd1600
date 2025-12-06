@@ -140,6 +140,11 @@ main ul {
     margin-left: 20px;
 }
 
+main ul li {
+    color: #f2b90c;
+}
+
+
 main dl dt {
     color: #0367A6;
     /* dt headings stay blue */
